@@ -13,7 +13,7 @@ return object
 }
 function deleteFromObjectByKey(object, key) {
     var newObj = Object.assign({}, object)
-    newObj.key = null
+    newObj[key] = null
     return newObj
 }
 
